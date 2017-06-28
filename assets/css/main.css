@@ -21,6 +21,7 @@
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
+		font-family:serif;
 	}
 
 	body {
@@ -1674,6 +1675,7 @@
 	}
 
 	h3 {
+		font-family:serif;
 		font-size: 4em;
 	}
 
@@ -2515,7 +2517,7 @@
 
 			table.alt tbody tr td {
 				border: solid 1px #dbdbdb;
-				border-left-width: 0;
+				border-left-width: 1;
 				border-top-width: 0;
 			}
 
@@ -2946,6 +2948,7 @@
 	}
 
 		#banner h1 {
+			font-family:serif;
 			font-size: 3.5em;
 			font-weight: 100;
 			color: #fff;
