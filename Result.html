@@ -34,32 +34,26 @@
 
 		<!-- One -->
 			<section id="one" class="wrapper">
-						<article>
-							<div style="text-align:center">
-							<header>
-								<h3><b>Screentone Segmentation - SegNet <u><a href="https://github.com/TimoSaemann/caffe-segnet-cudnn5" ></a></u></b></h3>
-								
-							</header>
-							</div>
-							<td>　<img src="Characters/Segmentation/Picture0.png" width="70%" height="70%">　</td><br><br>
-							<h3>　1.Training Data</font></h3><br>
-							<h2>　Original manga</font></h2>
-							<td>　<img src="Characters/Segmentation/Picture2.png" width="40%" height="40%">　<img src="Characters/Segmentation/Picture20.png" width="40%" height="40%"></td><br>
-							
-							<h2>　Generate Normal Screentone　　　　　　　　Generate Irregular Screentone</font></h2>
-							<td>　<img src="Characters/Segmentation/Picture3.png" width="50%" height="50%">　<img src="Characters/Segmentation/Picture4.png" width="27%" height="27%"></td><br><br>						
-							
-							<h2>　Extraction to training data(512x512)</h2>
-							
-							<td>　<img src="Characters/Segmentation/Picture1.png" width="50%" height="50%">　<img src="Characters/Segmentation/Picture10.png" width="45%" height="45%"></td><br>
-							<h3>　2.Testing Data</h3><br>
-							<h2>　Original manga</font></h2>
-							<td>　<img src="Characters/Segmentation/Picture5.png" width="30%" height="30%"></td><br><br>
-							<h2>　Testing Screentone Data</font></h2>
-							<td>　<img src="Characters/Segmentation/Picture6.png" width="100%" height="100%"></td><br>
-						</article>	
+			<h2><td>Segmentation Result</td><h2>
+						<script language="JavaScript">
 						
-
+						for(i=1;i<53;i=i+1){
+						
+						document.write("<img src=Characters/Result/Picture"+i+".png>");
+						document.write('<br>');
+						}
+						
+						var dir = "images/";
+						var fileextension = ".jpg";
+						
+						</script>
+						<h2><td>Classify Result</td><h2>
+						<h2><td>Three kind of Screentone (dot Stripe grid)</td><h2>
+						<td><img src="Characters/Result/Picture53.png" width="50%" height="50%"></td><br><br>
+						<h2><td>Four kind of Screentone (dot Stripe grid star)</td><h2>
+						<td><img src="Characters/Result/Picture54.png" width="50%" height="50%"></td><br><br>
+						<h2><td>Five kind of Screentone (dot Stripe grid star triangle)</td><h2>
+						<td><img src="Characters/Result/Picture55.png" width="50%" height="50%"></td><br><br>
 			</section>
 
 		<!-- Two -->
